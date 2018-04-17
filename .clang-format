@@ -63,6 +63,7 @@ BinPackParameters: false
 BinPackArguments: false
 AlignAfterOpenBracket: true
 
+ReflowComments: true
 #是否在容器字面量(@[@"1",@"2"])中插入空格
 SpacesInContainerLiterals: true
 
@@ -96,10 +97,11 @@ AlignAfterOpenBracket: Align
 # int a;
 # 1表示不缩进
 #大于1的值表示访问修饰关键字的左侧从int a的左侧列开始往右侧移动的距离
-AccessModifierOffset: -4
+AccessModifierOffset: -3
 
 #在构造函数初始化时按逗号断行，并以冒号对齐
 BreakConstructorInitializersBeforeComma: true
+
 
 
 ConstructorInitializerAllOnOneLineOrOnePerLine: true
@@ -126,7 +128,7 @@ SpaceBeforeAssignmentOperators: true
 SpaceInEmptyParentheses: false
 
 #单行注释前的空格数
-SpacesBeforeTrailingComments: 0
+SpacesBeforeTrailingComments: 2
 
 #是否在<>中间插入空格
 SpacesInAngles: false
