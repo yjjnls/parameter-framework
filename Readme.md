@@ -3,7 +3,8 @@
 
 1. Download and store the `clang-format.exe` in a specific directory.
 2. Copy `.clang-format` to the project directory.
-3. Install extension `Clang-Format` in vscode and edit the config setting.
+3. **Install extension `Clang-Format` in vscode** and edit the config setting.
+3.1 Run `npm install clang-format -g` to install clang-format in all platforms. the clang-path would be '${workspaceRoot}/node_modules/.bin/clang-format', in linux is: `/usr/local/lib/node_modules/clang-format/bin/linux_x64/clang-format`
 
 ```json
 {
