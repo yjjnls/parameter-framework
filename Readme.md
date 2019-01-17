@@ -33,7 +33,7 @@ https://www.cnblogs.com/PaulpauL/p/5929753.html
 Here eslint is used in vscode by install extension `ESLint` and install the node module.
 
 ```
-npm install -g eslint
+npm install -g eslint babel-eslint eslint-plugin-html
 ```
 
 the config setting will be:  
