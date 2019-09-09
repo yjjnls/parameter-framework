@@ -32,8 +32,8 @@ https://www.cnblogs.com/PaulpauL/p/5929753.html
 ## js format
 Here eslint is used in vscode by install extension `ESLint` and install the node module.
 
-```
-npm install eslint babel-eslint eslint-plugin-html
+```sh
+npm install eslint babel-eslint eslint-plugin-html -g
 ```
 
 install globally may not work, better install every root dir of your project.
@@ -49,3 +49,10 @@ the config setting will be:
 ```
 ESLint is just a hint where you did not follow the style guide.   
 Format the js code could still use the key in vscode: `Alt+shift+f` or `ctrl k + ctrl f` .
+
+EACCESS problem: [ref](https://blog.csdn.net/weixin_43828444/article/details/98661069)
+
+```sh
+sudo chown -R $(whoami) /usr/local/lib/node_modules
+```
+
